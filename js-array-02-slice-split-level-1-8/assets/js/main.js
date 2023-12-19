@@ -5,3 +5,12 @@
 // - Lass dir dein Array "lieblingsreiseziele" einmal vor dem slicen in der Konsole ausgeben und einmal danach. Dir wird auffallen, dass das ursprüngliche Array nicht verändert worden ist. Das bedeutet, dass slice() eine Kopie von den Werten erstellt und nicht das ursprüngliche Array beeinflusst.
 // - Schaue dir nochmal die anderen Methoden an und erkenne den Unterschied.
 
+let lieblingsreiseziele = ["Portugal", "Mallorca", "Thailand", "Malaysia", "Südafrika"]
+console.log(lieblingsreiseziele)
+console.log(lieblingsreiseziele.slice(0,2))
+
+
+// let lieblingsreiseziele = ["Portugal", "Mallorca", "Thailand", "Malaysia", "Südafrika"]
+// console.log(lieblingsreiseziele)
+// let sliceTravel = lieblingsreiseziele.slice(0,2)
+// console.log(sliceTravel)
