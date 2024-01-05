@@ -6,30 +6,19 @@
 // - Versuche diese Begriffe umzukehren: Sergio, Hannah, Regallager, Reliefpfeiler und Rentner.
 // - Versuche diese Sätze umzukehren: "Ella mag alle Bohnen" und "han nesaH has ennaH".
               
-let letters = ["Sergio",
-    "Hannah",
-    "Regallager",
-    "Reliefpfeiler",
-    "Rentner"]
+console.log("%c sort 2-1", "color:red");
 
-letters.reverseString()
-console.log("reverseString: ",letters)
-
-let nancy = () => {
-    letters.reverseString()
-    return console.log(letters)
+const reverseString = (words) => {
+    let reverseWords =words.split('').reverse().join('');
+    console.log(reverseWords);
 }
-nancy()
 
+reverseString("Philip")
+reverseString("Sergio")
+reverseString("Hannah")
+reverseString("Regallager")
+reverseString("Reliefpfeiler")
+reverseString("Rentner")
 
-let words = ["Ella mag alle Bohnen" + "han nesaH has ennaH"]
-
-// function reverseString(str) {
-//     return str;
-// }
-// reverseString("hello");
-
-function reverseString(str) {
-    return str.split("").reverse().join("");
-}
-reverseString("hello");
+reverseString("Ella mag alle Bohnen")
+reverseString("han nesaH has ennaH")
